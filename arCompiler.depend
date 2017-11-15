@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1510761443 source:c:\users\sofiane\documents\c++\arcompiler\main.cpp
+	"lineReader.h"
+
+1510762724 c:\users\sofiane\documents\c++\arcompiler\linereader.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+
