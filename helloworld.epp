@@ -1,0 +1,2 @@
+writel('hello world');
+write('hello world');

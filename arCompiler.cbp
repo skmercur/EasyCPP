@@ -32,7 +32,19 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="functionLocator.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lineReader.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="main.cpp" />
+		<Unit filename="write.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="writel.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Extensions>
 			<code_completion />
 			<envvars />

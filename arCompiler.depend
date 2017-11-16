@@ -1,10 +1,14 @@
 # depslib dependency file v1.0
-1510761443 source:c:\users\sofiane\documents\c++\arcompiler\main.cpp
+1510780099 source:c:\users\sofiane\documents\c++\arcompiler\main.cpp
 	"lineReader.h"
 
-1510762724 c:\users\sofiane\documents\c++\arcompiler\linereader.h
+1510773578 c:\users\sofiane\documents\c++\arcompiler\linereader.h
 	<iostream>
 	<fstream>
 	<sstream>
 	<cstdio>
+	"functionLocator.h"
+
+1510856343 c:\users\sofiane\documents\c++\arcompiler\functionlocator.h
+	<string>
 

@@ -4,13 +4,12 @@
 #include <fstream>
 #include <sstream>
 #include <cstdio>
+#include "functionLocator.h"
 void FileReader(std::string filename){
 std::ifstream infile(filename.c_str());
     for( std::string line; getline( infile, line ); )
 {
-std::cout<<line<<std::endl;
-  std::wstring message = L"السلام عليك";
-    std::cout << message.c_str() << std::endl;
+functionLocator(line);
 
 }
 }
