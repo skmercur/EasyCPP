@@ -12,3 +12,37 @@
 1510856343 c:\users\sofiane\documents\c++\arcompiler\functionlocator.h
 	<string>
 
+1510856892 source:/home/sofiane/c++/arbCompil/ArabicCompiler/ArabicCompiler/main.cpp
+	"lineReader.h"
+
+1510915252 /home/sofiane/c++/arbCompil/ArabicCompiler/ArabicCompiler/lineReader.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+	"functionLocator.h"
+
+1510921614 /home/sofiane/c++/arbCompil/ArabicCompiler/ArabicCompiler/functionLocator.h
+	<string>
+	<algorithm>
+	"stdlib.h"
+	<iostream>
+	<cmath>
+
+1511193417 source:c:\users\sofiane\documents\c++\arcompiler\arabiccompiler\main.cpp
+	"lineReader.h"
+
+1511193417 c:\users\sofiane\documents\c++\arcompiler\arabiccompiler\linereader.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+	"functionLocator.h"
+
+1511196440 c:\users\sofiane\documents\c++\arcompiler\arabiccompiler\functionlocator.h
+	<string>
+	<algorithm>
+	"stdlib.h"
+	<iostream>
+	<cmath>
+

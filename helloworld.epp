@@ -1,2 +1,6 @@
-writel('hello world');
-write('hello world');
+writel("hello world!");
+writel("first program coded in Easy plus plus");
+write("this is the addition of two numbers 41 and 15 : ");
+div(41,15);
+
+
