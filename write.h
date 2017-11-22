@@ -2,8 +2,12 @@
 #define WRITE_H_INCLUDED
 #include <string>
 
-void write(string str){
-std::cout<<str;
+void write(std::string str){
+str.erase(std::remove(str.begin(), str.end(), ';'), str.end());
+        str.erase(std::remove(str.begin(), str.end(), ')'), str.end());
+        str.erase(std::remove(str.begin(), str.end(), '"'), str.end());
+
+        std::cout<<str.substr(6,str.length());
 }
 
 

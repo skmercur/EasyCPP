@@ -46,3 +46,28 @@
 	<iostream>
 	<cmath>
 
+1511198487 source:/home/sofiane/c++/ArabicCompiler/main.cpp
+	"lineReader.h"
+
+1511197752 /home/sofiane/c++/ArabicCompiler/lineReader.h
+	<iostream>
+	<fstream>
+	<sstream>
+	<cstdio>
+	"functionLocator.h"
+
+1511198895 /home/sofiane/c++/ArabicCompiler/functionLocator.h
+	<string>
+	<algorithm>
+	"stdlib.h"
+	<iostream>
+	<cmath>
+	"write.h"
+	"writel.h"
+
+1511198181 /home/sofiane/c++/ArabicCompiler/write.h
+	<string>
+
+1511198868 /home/sofiane/c++/ArabicCompiler/writel.h
+	<string>
+

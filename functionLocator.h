@@ -5,6 +5,8 @@
 #include "stdlib.h"
 #include <iostream>
 #include <cmath>
+#include "write.h"
+#include "writel.h"
 void functionLocator(std::string str)
 {
     std::string str1 = str;
@@ -101,20 +103,12 @@ void functionLocator(std::string str)
     }
     case 1:
     {
-        str1.erase(std::remove(str1.begin(), str1.end(), ';'), str1.end());
-        str1.erase(std::remove(str1.begin(), str1.end(), ')'), str1.end());
-        str1.erase(std::remove(str1.begin(), str1.end(), '"'), str1.end());
-        str2 = str1.substr(6,str1.length());
-        std::cout<<str2;
+        write(str1);
         break;
     }
     case 2:
     {
-        str1.erase(std::remove(str1.begin(), str1.end(), ';'), str1.end());
-        str1.erase(std::remove(str1.begin(), str1.end(), ')'), str1.end());
-        str1.erase(std::remove(str1.begin(), str1.end(), '"'), str1.end());
-        str2 = str1.substr(7,str1.length());
-        std::cout<<str2<<std::endl;
+      writel(str1);
         break;
     }
 
